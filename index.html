@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Mike Weeden / Software Developer">
+    <meta name="author" content="Mike Weeden">
+    <title>Mike Weeden / Software Developer</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/7aba566fa7.css">
+  </body>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113890951-1"></script>
+  <script>
+    var isProd = NODE_ENV === 'production';
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    var trackingID = isProd ? 'UA-113890951-2' : 'UA-113890951-1';
+    gtag('config', trackingID);
+  </script>
+</html>

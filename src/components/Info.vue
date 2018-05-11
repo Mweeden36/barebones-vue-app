@@ -1,0 +1,22 @@
+<template>
+  <div class="hello">
+    <h1>{{ msg }}</h1>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Info',
+  data() {
+    return {
+      msg: 'Welcome to Your Info Component',
+    };
+  },
+};
+</script>
+
+<style scoped>
+h1 {
+  font-weight: normal;
+}
+</style>
