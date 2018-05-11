@@ -2,7 +2,7 @@
   <div class="info-container">
     <div class="info">
       <div class="headshot">
-        <img alt="My Face" src="/headshot.jpg" />
+        <img alt="My Face" src="../assets/headshot.jpg" />
       </div>
       <div class="header-text">
         <h1>I'm {{ firstName }}. A Software Engineer at

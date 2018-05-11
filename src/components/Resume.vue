@@ -6,7 +6,7 @@
           <p>About me</p>
         </div>
         <div class="text">
-          <p>{{ aboutBlurb }}</p>
+          <p v-html="aboutBlurb"></p>
         </div>
       </div>
       <div class="resume-section skills">
